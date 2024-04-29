@@ -289,7 +289,6 @@ class FrmEntriesController {
 			$form_id . '_created_at' => 'created_at',
 			$form_id . '_updated_at' => 'updated_at',
 			$form_id . '_ip'         => 'ip',
-			$form_id . '_search_engine' => 'search_engine',
 			$form_id . '_item_key'   => 'item_key',
 			$form_id . '_is_draft'   => 'is_draft',
 		);
@@ -298,7 +297,6 @@ class FrmEntriesController {
 			$columns[ $form_id . '_user_id' ] = 'user_id';
 			$columns[ $form_id . '_name' ]    = 'name';
 			$columns[ $form_id . '_form_id' ] = 'form_id';
-			$columns[ $form_id . '_search_engine' ] = 'search_engine';
 		}
 
 		foreach ( $fields as $field ) {
